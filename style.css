@@ -122,28 +122,3 @@ ul{
     }
     
   }
-  @media (min-width:801px){
-    #intro{
-        background-image: url(background.jpg);
-        height: 500px;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .reservate div{
-        margin-bottom: 10px;
-        background-color: white;
-        height: 40px;
-    }
-    .btn-research{
-        background-color: #91d18b;
-        height: 40px;
-        width: 170px;
-        border: none;
-        display: inline;
-    }
-    main{
-        width: 740px;
-        margin: auto;
-    }
-  }
