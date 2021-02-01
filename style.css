@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#intro{
+    background-image: url(background.jpg);
+    height: 500px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav{
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.reservate{
+    display: flex;
+    margin: 123px auto;
+    justify-content: center;
+    /* background-color: white; */
+    width: 900px;
+    height: 60px;
+    background: rgba(250, 250, 250, 0.7);
+    align-items: center;
+
+}
+.d-flex{
+    display: flex;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+main{
+    width: 1000px;
+    margin: auto;
+}
+.car{
+    width: 350px;
+    height: 200px;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.md-tb-100px{
+    margin: 100px 0;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+   
+}
+footer div{
+    padding: 100px;
+}
+ul{
+    list-style: none;
+}
+.command{
+    border: none;
+    color: white;
+    background-color: #91d18b;
+    height: 40px;
+    border-radius: 5px;
+}
+.reservate div{
+    margin-right: 20px;
+    background-color: white;
+    height: 40px;
+}
+.datepicker{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: white;
+}
+.btn-research{
+    background-color: #91d18b;
+    width: 270px;
+    height: 40px;
+    border: none;
+}
+.burger{
+    position: fixed;
+    right: 80px;
+}
+@media screen and (max-width: 640px) {
+    #intro{
+        background-image: url(background.jpg);
+        height: 500px;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .reservate{
+        display: flex;
+        flex-direction: column;
+        margin: 63px auto;
+        background: rgba(250, 250, 250, 0.7);
+        height: 230px;
+        width: 250px;
+    }
+    .reservate div{
+        margin-bottom: 10px;
+        background-color: white;
+        height: 40px;
+    }
+    .btn-research{
+        background-color: #91d18b;
+        height: 40px;
+        width: 170px;
+        border: none;
+    }
+    main{
+        width: 370px;
+        margin: auto;
+    }
+    
+  }
+  @media (min-width:801px){
+    #intro{
+        background-image: url(background.jpg);
+        height: 500px;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .reservate div{
+        margin-bottom: 10px;
+        background-color: white;
+        height: 40px;
+    }
+    .btn-research{
+        background-color: #91d18b;
+        height: 40px;
+        width: 170px;
+        border: none;
+        display: inline;
+    }
+    main{
+        width: 740px;
+        margin: auto;
+    }
+  }
